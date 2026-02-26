@@ -67,21 +67,23 @@ The ACF decay and AR(1) coefficients provide the strongest discriminative power.
 ## Usage
 
 1.  Prepare your corpus in `corpus.json` with the following structure:
-    ```json
-    [
-      {
-        "group_id": "1",
-        "human": "Original text...",
-        "llm_rewrite": "LLM rewritten text...",
-        "llm_polish": "LLM polished text..."
-      }
-    ]
-    ```
+   
+```json
+[
+  {
+    "group_id": "1",
+    "human": "Original text...",
+    "llm_rewrite": "LLM rewritten text...",
+    "llm_polish": "LLM polished text..."
+  }
+]
+```
 
 2.  Run the analysis:
-    ```bash
-    python compare_plus.py
-    ```
+   
+```bash
+python compare_plus.py
+```
 
 3.  Results will be saved in the `results/comparison_plus/` directory, including:
     -   `metrics.csv`: Statistical scalars for each text.
