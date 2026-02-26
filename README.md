@@ -76,12 +76,12 @@ The ACF decay and AR(1) coefficients provide the strongest discriminative power.
         "llm_polish": "LLM polished text..."
       }
     ]
-```
+    ```
 
 2.  Run the analysis:
     ```bash
     python compare_plus.py
-```
+    ```
 
 3.  Results will be saved in the `results/comparison_plus/` directory, including:
     -   `metrics.csv`: Statistical scalars for each text.
